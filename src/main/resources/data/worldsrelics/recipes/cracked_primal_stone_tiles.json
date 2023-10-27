@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "worldsrelics:primal_stone_tiles"
+  },
+  "result": "worldsrelics:cracked_primal_stone_tiles"
+}

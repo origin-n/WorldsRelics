@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "worldsrelics:primal_stone_bricks"
+  },
+  "result": "worldsrelics:primal_stone"
+}

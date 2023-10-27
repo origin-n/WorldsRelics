@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "worldsrelics:primal_rock"
+  },
+  "result": "worldsrelics:cracked_primal_rock"
+}
