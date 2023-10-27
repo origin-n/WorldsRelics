@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "worldsrelics:cracked_primal_stone_bricks",
+    "worldsrelics:cracked_primal_stone_tiles",
+    "worldsrelics:polished_primal_stone",
+    "worldsrelics:primal_stone",
+    "worldsrelics:primal_stone_bricks",
+    "worldsrelics:primal_stone_tiles"
+
+  ]
+}

@@ -26,38 +26,38 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> PRIMAL_STONE = registerBlock("primal_stone",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6.0F).sound(SoundType.STONE)
+                    .strength(3.0F).sound(SoundType.STONE)
                     .requiresCorrectToolForDrops(),
                         UniformInt.of(1,4)),
                         ModCreativeModeTab.WORLDS_RELICS_TAB);
 
     public static final RegistryObject<Block> PRIMAL_STONE_BRICKS = registerBlock("primal_stone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6.0F).sound(SoundType.STONE)
+                    .strength(3.0F).sound(SoundType.STONE)
                     .requiresCorrectToolForDrops()),
                         ModCreativeModeTab.WORLDS_RELICS_TAB);
 
     public static final RegistryObject<Block> CRACKED_PRIMAL_STONE_BRICKS = registerBlock("cracked_primal_stone_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6.0F).sound(SoundType.STONE)
+                    .strength(3.0F).sound(SoundType.STONE)
                     .requiresCorrectToolForDrops()),
             ModCreativeModeTab.WORLDS_RELICS_TAB);
 
     public static final RegistryObject<Block> PRIMAL_STONE_TILES = registerBlock("primal_stone_tiles",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6.0F).sound(SoundType.STONE)
+                    .strength(3.0F).sound(SoundType.STONE)
                     .requiresCorrectToolForDrops()),
             ModCreativeModeTab.WORLDS_RELICS_TAB);
 
     public static final RegistryObject<Block> CRACKED_PRIMAL_STONE_TILES = registerBlock("cracked_primal_stone_tiles",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6.0F).sound(SoundType.STONE)
+                    .strength(3.0F).sound(SoundType.STONE)
                     .requiresCorrectToolForDrops()),
             ModCreativeModeTab.WORLDS_RELICS_TAB);
 
     public static final RegistryObject<Block> POLISHED_PRIMAL_STONE = registerBlock("polished_primal_stone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6.0F).sound(SoundType.STONE)
+                    .strength(3.0F).sound(SoundType.STONE)
                     .requiresCorrectToolForDrops()),
             ModCreativeModeTab.WORLDS_RELICS_TAB);
 
