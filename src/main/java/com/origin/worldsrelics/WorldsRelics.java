@@ -2,6 +2,7 @@ package com.origin.worldsrelics;
 
 import com.mojang.logging.LogUtils;
 import com.origin.worldsrelics.block.ModBlocks;
+import com.origin.worldsrelics.item.ModCreativeModeTab;
 import com.origin.worldsrelics.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
@@ -25,6 +26,8 @@ public class WorldsRelics
     public WorldsRelics()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModeTab.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

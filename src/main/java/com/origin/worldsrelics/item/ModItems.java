@@ -14,9 +14,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, WorldsRelics.MODID);
 
     public static final RegistryObject<Item> PRIMAL_ROCK = ITEMS.register("primal_rock",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.WORLDS_RELICS_TAB)));
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CRACKED_PRIMAL_ROCK = ITEMS.register("cracked_primal_rock",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.WORLDS_RELICS_TAB)));
+            () -> new Item(new Item.Properties()));
 
 
     public static final void register(IEventBus eventBus) {
