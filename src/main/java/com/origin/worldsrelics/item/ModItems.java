@@ -1,6 +1,7 @@
 package com.origin.worldsrelics.item;
 
 import com.origin.worldsrelics.WorldsRelics;
+import com.origin.worldsrelics.item.custom.RodOfDiscordItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import com.origin.worldsrelics.WorldsRelics;
@@ -17,6 +18,9 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CRACKED_PRIMAL_ROCK = ITEMS.register("cracked_primal_rock",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ROD_OF_DISCORD = ITEMS.register("rod_of_discord",
+            () -> new RodOfDiscordItem(new Item.Properties().durability(1024)));
 
 
     public static final void register(IEventBus eventBus) {

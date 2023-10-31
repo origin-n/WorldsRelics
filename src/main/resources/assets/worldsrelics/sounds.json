@@ -1,0 +1,14 @@
+{
+  "rod_of_discord_warp": {
+    "subtitles": "sounds.worldsrelics.rod_of_discord_warp",
+    "sound": [
+      "worldsrelics:sounds.worldsrelics.rod_of_discord_warp"
+    ]
+  },
+  "rod_of_discord_warp_ping": {
+    "subtitles": "sounds.worldsrelics.rod_of_discord_warp_ping",
+    "sound": [
+      "worldsrelics:sounds.worldsrelics.rod_of_discord_warp_ping"
+    ]
+  }
+}

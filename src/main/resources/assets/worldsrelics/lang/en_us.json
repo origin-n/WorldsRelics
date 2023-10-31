@@ -2,12 +2,17 @@
   "item.worldsrelics.primal_rock": "Primal Rock",
   "item.worldsrelics.cracked_primal_rock": "Cracked Primal Rock",
 
+  "item.worldsrelics.rod_of_discord": "Rod of Discord",
+
   "block.worldsrelics.primal_stone": "Primal Stone",
   "block.worldsrelics.primal_stone_bricks": "Primal Stone Bricks",
   "block.worldsrelics.primal_stone_tiles": "Primal Stone Tiles",
   "block.worldsrelics.cracked_primal_stone_bricks": "Cracked_Primal Stone Bricks",
   "block.worldsrelics.cracked_primal_stone_tiles": "Cracked_Primal Stone Tiles",
   "block.worldsrelics.polished_primal_stone": "Polished Primal Stone",
+
+  "sounds.worldsrelics.rod_of_discord_warp": "Warp",
+  "sounds.worldsrelics.rod_of_discord_warp_ping": "Warp",
 
   "worldsrelics.worlds_relics_tab": "Worlds Relics"
 }

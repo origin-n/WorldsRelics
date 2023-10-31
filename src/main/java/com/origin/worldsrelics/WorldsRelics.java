@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.origin.worldsrelics.block.ModBlocks;
 import com.origin.worldsrelics.item.ModCreativeModeTab;
 import com.origin.worldsrelics.item.ModItems;
+import com.origin.worldsrelics.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
@@ -31,6 +32,8 @@ public class WorldsRelics
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
