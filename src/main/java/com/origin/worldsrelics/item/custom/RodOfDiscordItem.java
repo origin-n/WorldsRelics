@@ -1,9 +1,7 @@
 package com.origin.worldsrelics.item.custom;
 
 import java.util.Random;
-import com.origin.worldsrelics.sound.ModSounds;
 import net.minecraft.core.BlockPos;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;

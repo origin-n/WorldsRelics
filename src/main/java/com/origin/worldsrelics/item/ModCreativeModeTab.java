@@ -26,6 +26,7 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModBlocks.PRIMAL_STONE_TILES.get());
                         pOutput.accept(ModBlocks.CRACKED_PRIMAL_STONE_TILES.get());
                         pOutput.accept(ModBlocks.POLISHED_PRIMAL_STONE.get());
+                        pOutput.accept(ModItems.ROD_OF_DISCORD.get());
                     })
                     .build());
 
