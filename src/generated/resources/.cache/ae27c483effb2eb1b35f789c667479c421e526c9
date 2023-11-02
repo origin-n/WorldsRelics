@@ -1,0 +1,4 @@
+// 1.20.1	2023-11-02T17:42:22.3327201	Tags for minecraft:block mod id worldsrelics
+1ea9a24578b055d16864cff038b7cd9f38b3b923 data/minecraft/tags/blocks/mineable/pickaxe.json
+1ea9a24578b055d16864cff038b7cd9f38b3b923 data/minecraft/tags/blocks/needs_stone_tool.json
+87b3b51897ab80c6e4ed7afe604e6851e4505ffc data/worldsrelics/tags/blocks/worlds_relics_stone.json

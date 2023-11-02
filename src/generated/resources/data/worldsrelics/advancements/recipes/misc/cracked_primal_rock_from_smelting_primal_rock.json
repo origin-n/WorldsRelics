@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_primal_rock": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "worldsrelics:primal_rock"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "worldsrelics:cracked_primal_rock_from_smelting_primal_rock"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_primal_rock",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "worldsrelics:cracked_primal_rock_from_smelting_primal_rock"
+    ]
+  },
+  "sends_telemetry_event": false
+}

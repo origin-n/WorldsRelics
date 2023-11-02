@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "worldsrelics:block/cracked_primal_stone_tiles"
+  }
+}
